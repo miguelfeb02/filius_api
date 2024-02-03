@@ -1,0 +1,6 @@
+rootProject.name = 'filius'
+include 'module_domain'
+include 'module_aplication'
+include 'module_infrastucture'
+
+
