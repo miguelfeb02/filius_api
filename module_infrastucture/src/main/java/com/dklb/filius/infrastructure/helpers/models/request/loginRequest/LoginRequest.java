@@ -5,6 +5,7 @@ public class LoginRequest  {
 
     private String uid;
 
+
     public String getUid() {
         return uid;
     }

@@ -60,7 +60,7 @@ public class FirebaseImplement implements FirebaseRepository {
             String jwt = FirebaseAuth.getInstance().createCustomToken(userFirebase.getUid(), claims);
             return new Login(true, jwt);
         } catch (FirebaseAuthException e) {
-            return null;
+            return new Login(false, null);
         }
 
 
